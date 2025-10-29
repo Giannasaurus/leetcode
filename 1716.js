@@ -1,5 +1,3 @@
-// i passed test case #1!!!! im goated B)))
-// its 4 56am, i come back later
 /**
  * @param {number} n
  * @return {number}
@@ -10,6 +8,10 @@ var totalMoney = function (n) {
         total += day
         console.log('day:', day, ', money added:', day, ', money so far:', total)
     }
+    
+    // using Gauss Sum (only for test case 1)
+    // total = n*(n+1)/2
+    
     console.log('total:', total)
     return total
 };
